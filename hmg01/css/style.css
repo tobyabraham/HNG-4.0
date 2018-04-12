@@ -1,0 +1,79 @@
+/*
+Author: Bolajoko Oluwatobi Abraham
+*/
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.hero-image {
+	background: linear-gradient(303.2deg, #171633 10.18%, rgba(14, 13, 56, 0) 99.93%, rgba(244, 244, 245, 0.0483897) 100%), url(../img/img5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;	
+}
+
+.hero-text {
+	text-align: center;
+	top: 200px;
+	left: 360px;
+	position: absolute;
+	color: white;
+	font-weight: bold;
+}
+
+.hero-text h1 {
+	font-size: 56px;
+}
+
+.hero-text b {
+	color: #eb5757;
+}
+
+.wrap {
+	text-align: center;
+	top: 520px;
+	left: 500px;
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+
+}
+.date {
+	
+	float: left;
+	border-right: 0.75px solid;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.date-third {
+	float: left;
+	border: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.date p, .date-third p {
+	margin-top: 20px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.footer {
+	top: 630px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #eb5757;
+	position: absolute;
+	left: 600px;
+}
